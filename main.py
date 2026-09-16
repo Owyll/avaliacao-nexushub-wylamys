@@ -1,11 +1,11 @@
 startup = {"nome": "NexusHub"}
 
 with open("custos_cloud.csv", "r", encoding="utf-8") as arquivo:
-	cabecalho = arquivo.readline()
-	linha1 = arquivo.readline()
-	linha2 = arquivo.readline()
-	linha3 = arquivo.readline()
-	linha4 = arquivo.readline()
+    cabecalho = arquivo.readline()
+    linha1 = arquivo.readline()
+    linha2 = arquivo.readline()
+    linha3 = arquivo.readline()
+    linha4 = arquivo.readline()
 
 print(cabecalho, end="")
 print(linha1, end="")
@@ -23,4 +23,3 @@ print("\nPainel final")
 print(f"Nome da startup: {startup['nome']}")
 print("Bancada alocada: Bancada N1")
 print(f"Valor total da infraestrutura Cloud: R$ {total:.2f}")
-
